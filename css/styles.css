@@ -1,0 +1,35 @@
+html { 
+    text-align: center;
+}
+header {
+    background-color: blueviolet;
+}
+nav {
+    background-color: brown;
+}
+main {
+    background-color: burlywood;
+}
+.banner {
+    background-color: darkorange;
+
+}
+li {
+    background-color: deepskyblue;
+    /* width: 32%; */
+
+    width: calc((100% - 32px) / 3);
+}
+footer {
+    background-color: greenyellow;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: deeppink;
+}
+.promo {
+    display: flex;
+    justify-content: space-between;
+}
